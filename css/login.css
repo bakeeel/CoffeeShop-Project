@@ -1,0 +1,90 @@
+/*
+
+Keegan Fargher
+17920334
+I confirm that this assignment is my own work and any work copied shall be referenced accordingly.
+
+*/
+
+.login-button {
+	margin: 30px 0;
+}
+
+h3 {
+	font-size: 1rem;
+}
+
+h1,
+h3 {
+	font-family: 'Raleway', 'Arial', sans-serif;
+}
+
+.btn {
+	width: 100%;
+}
+
+.login-html {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+		url(../img/login-background.jpg);
+	background-size: cover !important;
+	background-position: bottom !important;
+	height: 100%;
+}
+
+.signin-wrapper {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+.signin-box {
+	width: 400px;
+	background-color: #fff;
+	padding: 20px;
+}
+
+.signin-box .slim-logo {
+	margin-right: 0;
+	margin-bottom: 40px;
+}
+
+.signin-box.signup {
+	width: 500px;
+}
+
+.signin-box.signup {
+	margin-bottom: 20px;
+}
+
+.signin-title-primary {
+	font-weight: 400;
+	color: #212529;
+}
+
+.signin-title-secondary {
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+
+.invalid-feedback {
+	display: block;
+	font-size: 100%;
+}
+
+@media (min-width: 576px) {
+	.signin-wrapper {
+		padding: 30px;
+	}
+}
+
+@media (min-width: 480px) {
+	.signin-box {
+		padding: 35px 40px;
+	}
+
+	h3 {
+		font-size: 1.2rem;
+	}
+}

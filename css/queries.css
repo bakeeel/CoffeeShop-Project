@@ -1,0 +1,105 @@
+/*
+
+Keegan Fargher
+17920334
+I confirm that this assignment is my own work and any work copied shall be referenced accordingly.
+
+*/
+
+/* USED TO MAKE HTML ELEMENTS RESPONSIVE */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 8%;
+    }
+
+    .cart-items-container {
+        padding: 0 80px;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    body {
+        font-size: 14px;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+    .cart-items-container {
+        padding: 0 80px;
+    }
+
+    li.nav-item.text-center.text-lg-right {
+        margin: auto !important;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+
+    .card-description {
+        font-size: 0.7rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 12px;
+    }
+
+    .hero-text-box {
+        padding: 0 4%;
+        text-align: center;
+    }
+
+    .cart-items-container {
+        padding: 0 70px;
+    }
+
+    .card-title {
+        font-size: 1.3rem;
+    }
+
+    .card-description {
+        font-size: 0.9rem;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) {
+    .hero-text-box {
+        text-align: center;
+    }
+
+    .hero-text-box a {
+        width: 80%;
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+
+    .cart-items-container {
+        padding: 0 30px;
+    }
+
+    section {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+    }
+
+    .card-description {
+        font-size: 0.9rem;
+    }
+}
